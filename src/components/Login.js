@@ -6,6 +6,7 @@ function Login() {
   return (
     <div>
       <GoogleLogin
+        hd={['gslab.com']}
         onSuccess={credentialResponse => {
           console.log("🚀 ~ Login ~ credentialResponse 1:", credentialResponse)
           document.cookie = "sharedData=" + encodeURIComponent(JSON.stringify(credentialResponse));
