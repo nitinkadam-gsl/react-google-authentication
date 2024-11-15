@@ -8,7 +8,8 @@ function Login() {
       <GoogleLogin
         onSuccess={credentialResponse => {
           console.log("🚀 ~ Login ~ credentialResponse 1:", credentialResponse)
-          window.location.replace(`http://172.25.12.211:8080/ruleeditor-0.0.1-SNAPSHOT?credential=${JSON.stringify(credentialResponse)}`);
+          document.cookie = "sharedData=" + encodeURIComponent(JSON.stringify(credentialResponse));
+          // window.location.replace(`http://172.25.12.211:8080/ruleeditor-0.0.1-SNAPSHOT?credential=${JSON.stringify(credentialResponse)}`);
         }}
         onError={err => {
           console.log("🚀 ~ Login ~ err:", err)
