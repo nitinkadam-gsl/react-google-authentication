@@ -8,8 +8,7 @@ function Login() {
       <GoogleLogin
         hd={['gslab.com']}
         onSuccess={credentialResponse => {
-          console.log("🚀 ~ Login ~ credentialResponse 1:", credentialResponse)
-          document.cookie = "sharedData=" + encodeURIComponent(JSON.stringify(credentialResponse));
+          console.log("🚀 ~ Login ~ credentialResponse 2:", credentialResponse)
           const queryString = new URLSearchParams(credentialResponse).toString();
           window.location.replace(`http://172.25.12.211:8080/ruleeditor-0.0.1-SNAPSHOT?${queryString}`);
         }}
