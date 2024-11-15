@@ -3,10 +3,13 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
+import { GoogleOAuthProvider } from '@react-oauth/google';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <GoogleOAuthProvider clientId="648085406021-vej5d1alfbq2l6eam25crr1tg6eh5h9r.apps.googleusercontent.com">
+      <App />
+    </GoogleOAuthProvider>
   </React.StrictMode>,
   document.getElementById('root')
 );
