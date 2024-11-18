@@ -15,8 +15,8 @@ function Login() {
             console.log('User authenticated with GSLab or Gmail');
             return window.location.href;
           }
-          const queryString = new URLSearchParams(credentialResponse).toString();
-          window.location.replace(`http://172.25.12.211:8080/ruleeditor-0.0.1-SNAPSHOT?${queryString}`);
+          // const queryString = new URLSearchParams(credentialResponse).toString();
+          // window.location.replace(`http://172.25.12.211:8080/ruleeditor-0.0.1-SNAPSHOT?${queryString}`);
         }}
         onError={err => {
           console.log("🚀 ~ Login ~ err:", err)
