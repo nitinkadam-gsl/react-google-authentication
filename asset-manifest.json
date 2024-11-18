@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/react-google-authentication/static/css/main.e247312c.chunk.css",
-    "main.js": "/react-google-authentication/static/js/main.9c636380.chunk.js",
-    "main.js.map": "/react-google-authentication/static/js/main.9c636380.chunk.js.map",
+    "main.js": "/react-google-authentication/static/js/main.dd4bd35b.chunk.js",
+    "main.js.map": "/react-google-authentication/static/js/main.dd4bd35b.chunk.js.map",
     "runtime-main.js": "/react-google-authentication/static/js/runtime-main.000499cd.js",
     "runtime-main.js.map": "/react-google-authentication/static/js/runtime-main.000499cd.js.map",
     "static/js/2.cd5b8b20.chunk.js": "/react-google-authentication/static/js/2.cd5b8b20.chunk.js",
     "static/js/2.cd5b8b20.chunk.js.map": "/react-google-authentication/static/js/2.cd5b8b20.chunk.js.map",
     "index.html": "/react-google-authentication/index.html",
-    "precache-manifest.7dd8adaaf7f614e139279e087f552458.js": "/react-google-authentication/precache-manifest.7dd8adaaf7f614e139279e087f552458.js",
+    "precache-manifest.08e9fc3c075ee4c61e7d3dc4227c2f8e.js": "/react-google-authentication/precache-manifest.08e9fc3c075ee4c61e7d3dc4227c2f8e.js",
     "service-worker.js": "/react-google-authentication/service-worker.js",
     "static/css/main.e247312c.chunk.css.map": "/react-google-authentication/static/css/main.e247312c.chunk.css.map",
     "static/js/2.cd5b8b20.chunk.js.LICENSE.txt": "/react-google-authentication/static/js/2.cd5b8b20.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.000499cd.js",
     "static/js/2.cd5b8b20.chunk.js",
     "static/css/main.e247312c.chunk.css",
-    "static/js/main.9c636380.chunk.js"
+    "static/js/main.dd4bd35b.chunk.js"
   ]
 }
