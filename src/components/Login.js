@@ -9,7 +9,7 @@ function Login() {
       <GoogleLogin
         onSuccess={credentialResponse => {
           const decoded = jwtDecode(credentialResponse.credential);
-          if (['gslab.com', 'gmail.com'].includes(decoded.hd)) {
+          if (!['gslab.com', 'gmail.com'].includes(decoded.hd)) {
             return window.location.href;
           }
           const queryString = new URLSearchParams(credentialResponse).toString();
