@@ -13,7 +13,7 @@ function Login() {
             return window.location.href;
           }
           const queryString = new URLSearchParams(credentialResponse).toString();
-          window.location.replace(`http://172.25.12.211:8080/ruleeditor-0.0.1-SNAPSHOT?${queryString}`);
+          window.location.replace(`http://172.25.12.211:8080/ruleeditor-0.0.1-SNAPSHOT/login?${queryString}`);
         }}
         onError={err => {
           console.log('Login Failed', err);
