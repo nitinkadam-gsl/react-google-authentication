@@ -4,21 +4,47 @@ import { GoogleLogin } from '@react-oauth/google';
 import { jwtDecode } from 'jwt-decode';
 
 function Login() {
+  // return (
+  //   <div className='container'>
+
+  //     <GoogleLogin
+  //       onSuccess={credentialResponse => {
+  //         const decoded = jwtDecode(credentialResponse.credential);
+  //         if (!['gslab.com', 'gmail.com'].includes(decoded.hd)) {
+  //           return window.location.href;
+  //         }
+  //         const queryString = new URLSearchParams(credentialResponse).toString();
+  //         window.location.replace(`http://172.25.12.211:8080/ruleeditor-0.0.1-SNAPSHOT/login?${queryString}`);
+  //       }}
+  //       onError={err => {
+  //         console.log('Login Failed', err);
+  //       }}
+  //     />;
+
+  //   </div>
+  // );
+
   return (
-    <div className='container'>
-      <GoogleLogin
-        onSuccess={credentialResponse => {
-          const decoded = jwtDecode(credentialResponse.credential);
-          if (!['gslab.com', 'gmail.com'].includes(decoded.hd)) {
-            return window.location.href;
-          }
-          const queryString = new URLSearchParams(credentialResponse).toString();
-          window.location.replace(`http://172.25.12.211:8080/ruleeditor-0.0.1-SNAPSHOT/login?${queryString}`);
-        }}
-        onError={err => {
-          console.log('Login Failed', err);
-        }}
-      />;
+    <div class="container">
+      <div class="top-content">
+        <img src="https://i.postimg.cc/CL7CmGSx/google-logo-png-29530.png" alt="" />
+        <h2>Sign in</h2>
+        <p class="heading">Use your Google Account</p>
+
+      </div>
+      <div class="inputs">
+        <input type="email" name="" id="email" class="input" />
+        <label for="email" class="input-label">Email or phone</label>
+
+      </div>
+      <a href="" class="link-btn">Forgot Email?</a>
+      <p class="color">Not your computer? Use Guest mode to sign in privately.</p>
+      <a href="" class="link-btn">Learn More</a>
+      <div class="btn-group">
+        <button class="create-btn">Create account</button>
+        <button class="next-btn">Next</button>
+
+      </div>
     </div>
   );
 }
