@@ -27,7 +27,7 @@ function Login() {
   return (
     <div class="container">
       <div class="top-content">
-        <img src="../images/flipkart-logo.png" alt="Logo" />
+        <img src="flipkart-logo.png" alt="Logo" />
         <h2>Sign in</h2><br />
         <GoogleLogin
           onSuccess={credentialResponse => {
