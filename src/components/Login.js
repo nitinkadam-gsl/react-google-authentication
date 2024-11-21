@@ -28,7 +28,6 @@ function Login() {
     <div class="container">
       <div class="top-content">
         <img src="flipkart-logo.png" alt="Logo" />
-        <h2>Sign in</h2><br />
         <GoogleLogin
           onSuccess={credentialResponse => {
             const decoded = jwtDecode(credentialResponse.credential);
