@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "502a93cb1d989251dc976647d7b72b2f",
+    "revision": "f2e016cb3c3ab5fb8232aa2128d25c49",
     "url": "/react-google-authentication/index.html"
   },
   {
-    "revision": "a648c15808abe95374db",
-    "url": "/react-google-authentication/static/css/main.476b9d55.chunk.css"
+    "revision": "9144b78fe8be5fdf01e0",
+    "url": "/react-google-authentication/static/css/main.ceafc08d.chunk.css"
   },
   {
     "revision": "91fcb9fe37d9cc19451e",
@@ -16,7 +16,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/react-google-authentication/static/js/2.cd5b8b20.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "a648c15808abe95374db",
+    "revision": "9144b78fe8be5fdf01e0",
     "url": "/react-google-authentication/static/js/main.cb266474.chunk.js"
   },
   {
