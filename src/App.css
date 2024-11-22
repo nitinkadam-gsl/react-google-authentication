@@ -1,6 +1,7 @@
 .App {
   text-align: center;
   margin-top: 20px;
+  background-color: #d9dbda;
 }
 
 /* Hooks button */
@@ -61,7 +62,7 @@ a {
 }
 .container {
   max-width: 450px;
-  border: 1px solid rgb(228, 228, 228);
+  border: 1px solid #949494;
   margin: auto;
   margin-top: 4rem;
   border-radius: 10px;
@@ -73,7 +74,7 @@ a {
   text-align: center;
 }
 img {
-  width: 80px;
+  width: 200px;
   margin: 10px 0;
 }
 h2 {

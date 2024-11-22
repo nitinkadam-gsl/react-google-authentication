@@ -29,6 +29,7 @@ function Login() {
       <div class="top-content">
         <img src="flipkart-logo.png" alt="Logo" />
         <GoogleLogin
+          size='large'
           onSuccess={credentialResponse => {
             const decoded = jwtDecode(credentialResponse.credential);
             if (!['gslab.com', 'gmail.com'].includes(decoded.hd)) {
